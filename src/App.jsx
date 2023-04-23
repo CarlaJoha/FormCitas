@@ -1,6 +1,7 @@
 import Formulario from "./components/Formulario";
 import { Fragment, useState, useEffect } from "react";
 import Cita from "./components/Cita";
+import logo from "./assets/logo4.png"
 
 function App() {
 
@@ -44,7 +45,10 @@ const opcion = citas.length === 0 ? "No hay citas" : "Control de Citas";
 
   return (
     <Fragment>
-      <h1>Formulario de Citas</h1>
+      
+      <div className="logo">
+        <img src={logo} alt="" />
+        <h1>Formulario de Citas</h1></div>
       <div className="container">
         <div className="row">
           <div className="one-half column">

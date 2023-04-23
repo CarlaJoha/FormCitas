@@ -22,7 +22,14 @@ h1, h2{
   font-size: 3.5rem;
   letter-spacing: .8px;
 }
-
+.logo img{
+  height: 6em;
+  margin: 2em;
+}
+.logo h1{
+  margin: 0em;
+  padding: 0;
+}
 .listas-citas .media{
   border-bottom: 1px solid #e1e1e1;
   padding-bottom: 3rem;
@@ -58,7 +65,8 @@ input[type="date"], input[type="time"]{
 }
 
 .cita{
-  padding: 2rem;
+  padding: 2em;
+  height:13em;
   background: white;
   border-bottom: 1px solid #e1e1e1;
   color: black;
@@ -66,7 +74,7 @@ input[type="date"], input[type="time"]{
 
 .cita p{
   font-weight: bold;
-  margin-bottom: .8rem;
+  margin-bottom: .4rem;
 }
 
 .cita p span{
@@ -74,12 +82,11 @@ input[type="date"], input[type="time"]{
 }
 
 .cita:first-of-type{
-  border-top-left-radius: 1rem;
+  border-radius: 1rem;
 }
 
 .cita:last-of-type{
-  border-bottom-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-radius: 1rem;
 }
 
 button.eliminar, .button.eliminar:hover{
